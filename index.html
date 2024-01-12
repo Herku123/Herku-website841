@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="author" content="Herku" >
+    <meta name="description" content="This is my HTML Page" >
+    <title>Herku's Biography</title>
+    <link rel="icon" href="img/Cornmanthe3rd-Plex-Other-html-5.512.png" >
+    <link rel="stylesheet" href="main.css" >
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <h1>My HTML Site</h1>
+
+        <nav aria-label="primary-navigation">
+          <ul>
+            <li><a href="#html">Learning HTML</a></li>
+            <li><a href="#vacations">Planning a Vacation</a></li>
+            <li><a href="#contacts">Contact me</a></li>
+          </ul>
+        </nav>
+
+      </section>
+    </header>
+
+    <hr>
+
+    <main>
+
+      <article id="html">
+        <h2>I'm Ready to Learn HTML</h2>
+        <p>This is my first web page</p>
+      </article>
+
+        <section>
+          <h3>HTML</h3>
+        <img
+          src="img/blackGuy.jpg"
+          alt="Black Guy"
+          title="This is a black guy"
+          width="274"
+          height="184">
+
+        <figure>
+          <figcaption>An example of HTML code that i did</figcaption>
+          <p>
+            <code>&lt;h1&gt;Hello World!&lt;h1&gt;</code>
+          </p>
+        </figure>
+      </section>
+
+      <article>
+        <h2>My Daily Schedule</h2>
+
+      <section>
+        <h2>Let me tell you how:</h2>
+
+        <ul>
+          <li>I learn more about web dev</li>
+          <li>I plan out my Schedule</li>
+          <li>
+            I Use Resources from
+            <abbr title="Mozzilla Developer Network">
+              <a href="https://developer.mozilla.org/" target="_blank">
+                MDN</a
+              ></abbr>
+          </li>
+        </ul>
+        <aside>
+          <details>
+            <summary>Click if <mark>Gay</mark></summary>
+            <p>Lol ur gay</p>
+          </details>
+        </aside>
+      </section>
+      </article>
+
+      <hr>
+
+      <article id="vacations">
+        <h2>Vacation</h2>
+        <section>
+          <h2>Planning a Vacation</h2>
+        <p>I've been working hard and <em>really need a getaway</em>.</p>
+        <p>
+          I live in <strong><abbr title="Kansas">KS</abbr></strong> so I want to
+          visit a beach.
+        </p>
+      </section>
+
+      <section>
+        <h3>Places I'd Like to Visit</h3>
+
+        <ul>
+          <li>
+            <p>I've hear good things about the <strong>Carribean.</strong></p>
+              <img src="img/download(2).jpg" alt="Carribean Cunt">
+          </li>
+
+          <li>
+            <p>I've heard good things about going here:</p>
+            <address>
+              wujildjasjklawsfjjkfjskl djawldjajljdalhfasjkfha jsjkdgsdjjlgsdhg
+            </address>
+          </li>
+        </ul>
+        </section>
+
+        <!--TODO: Be More Gay-->
+      <section>
+        <h3>Places I want to Avoid</h3>
+        <dl>
+          <dt>North Pole</dt>
+          <dd>The North Pole is <strong>COLD!</strong></dd>
+
+          <dt>South Pole</dt>
+          <dd>This is also <strong>COLD!</strong></dd>
+          <dt>Mountain Tops</dt>
+          <dd>These are also <strong>COLD</strong></dd>
+        </dl>
+      </section>
+      </article>
+
+      <hr>
+
+      <article id="contacts">
+        <h2>Contact</h2>
+        <p>I'd like you to contasct me pwease</p>
+
+        
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+
+          <p>
+          <label for="firstName">First Name: </label>
+          <input type="text" name="firstName" id="firstName" placeholder="Name Here..." autocomplete="on" required autofocus>
+        </p>
+
+        <p>
+          <label for="lastName">Last Name: </label>
+          <input type="text" name="LastName" id="lastName" placeholder="Name Here..." autocomplete="on" required>
+        </p>
+
+        <p>
+          <label for="password">Password: </label>
+          <input type="password" name="password" id="password" placeholder="Password Here..." required>
+        </p>
+
+        <p>
+          <label for="decade">Favourite Decade: </label>
+          <input type="number" name="decade" id="decade" min="0" max="2020" step="10" value="2000">
+        </p>
+
+        <p>
+          <label for="coffee">Favorite Coffee: </label>
+
+          <select name="coffee" id="coffee" multiple size="5">
+
+            <optgroup label="Coffees">
+            <option value="regular coffee">Regular Coffee</option>
+            <option value="iced coffee">Iced Coffee</option>
+            </optgroup>
+
+            <optgroup label="Espressos">
+            <option value="latte" selected>Latte </option>
+            <option value="capuccino">Capuccino</option>
+            <option value="cortado">Cortado</option>
+            <option value="americano">Americano</option>
+            <option value="Other">Other</option>
+          </optgroup>
+
+          </select>
+        </p>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>What is Your Favourite Food?</legend>
+
+        <p>
+          <input type="radio" name="food" id="tacos" value="tacos">
+          <label for="tacos">Tacos</label>
+        </p>
+
+        <p>
+          <input type="radio" name="food" id="pizza" value="pizza">
+          <label for="pizza">Pizza</label>
+        </p>
+
+        <p>
+          <input type="radio" name="food" id="other" value="other">
+          <label for="other">Other</label>
+        </p>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Do you Have Any Pets?</legend>
+        <p>
+          <input type="checkbox" name="pets" id="dogs" value="dogs">
+          <label for="dogs">Dog</label>
+        </p>
+
+        <p>
+          <input type="checkbox" name="pets" id="cats" value="cats">
+          <label for="cats">Cat</label>
+        </p>
+
+        <p>
+          <input type="checkbox" name="pets" id="other1" value="other1">
+          <label for="other1">Other</label>
+        </p>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Send Me a Note</legend>
+        <label for="message">Message Here: </label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
+      </fieldset>
+
+      <br>
+
+      <button type="submit">Submit</button>
+      <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+      <button type="reset">Reset</button>
+
+        </form>
+      </article>
+
+    </main>
+
+    <hr>
+
+    <footer>
+      <p>&lt;&lt; &copy; <a href="about.html">Herku</a> &gt;&gt;</p>
+      <p><a href="#">Back to Top</a></p>
+    </footer>
+  </body>
+</html>
